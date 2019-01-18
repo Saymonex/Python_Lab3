@@ -1,0 +1,11 @@
+from pylab import *
+
+t = arange(0,2*pi,0.01)
+x = 3*cos(t)
+y = 2*sin(t)
+x2 = [0,0]
+y2 = [-2.5,2.5]
+x3 = [-3.5,3.5]
+y3 = [0,0]
+plot(x,y,"r",x2,y2,"b",x3,y3,"b")
+show()
